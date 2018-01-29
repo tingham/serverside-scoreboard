@@ -5,13 +5,13 @@ A simple arcade style scoreboard.
 
 The idea here is to build a simple server-side scoreboard mechanism that can be used by clients to share and compare scores.
 
-Here's an example of how the data would be displayed by a client:
+Here's an example of how the data may be displayed by a client:
 
 
 ```
-          TOP SCORES  
-
 Rank   Initials   Level   Score  
+
+          TOP SCORES  
 
  1       HAY       49     62,750
  2       ACK       45     57,200
@@ -23,6 +23,10 @@ Rank   Initials   Level   Score
  8       JAK       37     38,800
  9       SQL       35     33,000
  10      POD       32     26,500
+
+          YOUR SCORE  
+
+ 85      KID       10      6,000
 ```
 
 
