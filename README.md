@@ -41,3 +41,11 @@ Rank   Initials   Level   Score
 Flexible.  
 
 It would be great to have REST endpoints that supported the **Actions** listed above.
+
+## Installation and Deployment
+
+    $ npm install
+    $ sudo npm install -g nodemon
+    $ nodemon npm start
+
+
