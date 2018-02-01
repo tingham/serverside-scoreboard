@@ -48,4 +48,13 @@ It would be great to have REST endpoints that supported the **Actions** listed a
     $ sudo npm install -g nodemon
     $ nodemon npm start
 
+## Proposal Installation
 
+1. ~/.bash_profile needs   
+    export SCOREBOARD_DSN="mysql://scoreboard:scoreboard@localhost/scoreboard"
+2. Perform in project directory:  
+    npm install
+    npm install -g nodemon #may require sudo
+3. Perform in project directory:  
+    nodemon npm start #application will automatically restart after code changes.
+    
